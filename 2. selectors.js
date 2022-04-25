@@ -11,5 +11,10 @@ $(document).ready(() => {
   $('#fade').click(() => {
     $('div > p').fadeToggle(3000)
   })
+  
+    
+  $('#fade2').click(() => {
+    $('p:first').fadeToggle(3000)
+  })
  
 })
