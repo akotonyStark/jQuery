@@ -1,6 +1,6 @@
 $(document).ready(() => {  
   
-  $("button").click(() => {
+  $("#button1").click(() => {
     $("div").css('background-color', 'orange')
     
     $('.para').css('font-style', 'italic')
@@ -8,6 +8,8 @@ $(document).ready(() => {
      $('#div3 li').css('background-color', 'purple')
   })
   
-  
+  $('#fade').click(() => {
+    $('div > p').fadeToggle(3000)
+  })
  
 })
