@@ -9,9 +9,10 @@ $(document).ready(() => {
   $("li[name]").append(" and juice")
  
    $("li[id='apple']").append(" and juice")
-  $("a[href *= 'google']").css("font-weight", "bold")
+  $("a[href *= 'google']").css("font-weight", "bold") //conatains google
   
-  $("a[href ^= 'www']").css({"font-weight": "bold", "color": "darkred"})
+  $("a[href ^= 'www']").css({"font-weight": "bold", "color": "darkred"}) //starts with wwww
   
+   $("a[href $= 'pdf']").css({"font-weight": "bold", "color": "darkred"}) //ends with pdf
   $("img").width(500).height(500)
 })
