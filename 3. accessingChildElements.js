@@ -8,4 +8,5 @@ $(document).ready(() => {
   $("#fruitsList li:first").css("color", "blue")
   $("li[name]").append(" and juice")
  
+   $("li[id='apple']").append(" and juice")
 })
